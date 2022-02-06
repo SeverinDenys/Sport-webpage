@@ -5,12 +5,15 @@
 .wrapper {
   max-width: 111rem;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 12.6rem;
+  padding-top: 3rem;
 
   &__nav--items {
     display: flex;
@@ -20,7 +23,7 @@
   }
 
   &__nav--item {
-    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   &__nav--link {
@@ -40,9 +43,9 @@
     color: $color-white;
     font-size: 1.4rem;
     font-weight: bold;
-    padding: 1.3rem;
+    padding: 1.2rem;
     outline: none;
-    border-radius: 3rem;
+    border-radius: 0.3rem;
     cursor: pointer;
     border: 0;
     transition: all ease 0.5s;

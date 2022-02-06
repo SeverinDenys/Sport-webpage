@@ -16,24 +16,71 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif; }
 
+.banner {
+  color: #fff;
+  display: flex;
+  justify-content: space-between; }
+  .banner__sale--description {
+    font-size: 3rem; }
+  .banner__sale--title {
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 6rem; }
+
+.main-item {
+  flex: 0 0 50%; }
+
+.box {
+  position: relative; }
+  .box__price {
+    position: absolute;
+    right: 0;
+    top: 3.5rem;
+    text-align: right; }
+    .box__price--old {
+      font-size: 2.4rem;
+      font-weight: 700; }
+    .box__price--new {
+      color: #dae049;
+      font-size: 4.2rem;
+      font-weight: 700;
+      margin-top: 1.7rem; }
+  .box__image {
+    width: 90%; }
+
+.btn {
+  color: #fff;
+  background-color: #0057ad;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1.8rem 2.8rem;
+  margin-top: 4rem;
+  display: inline-block;
+  border-radius: 0.3rem; }
+
 .page--light {
   background-color: #1b1919; }
 
 .wrapper {
   max-width: 111rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 1.5rem; }
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 12.6rem;
+  padding-top: 3rem; }
   .header__nav--items {
     display: flex;
     list-style: none;
     padding-left: 0;
     font-size: 2rem; }
   .header__nav--item {
-    margin-left: 5rem; }
+    margin-right: 5rem; }
   .header__nav--link {
     text-decoration: none;
     color: #fff;
@@ -46,9 +93,9 @@ body {
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
-  padding: 1.3rem;
+  padding: 1.2rem;
   outline: none;
-  border-radius: 3rem;
+  border-radius: 0.3rem;
   cursor: pointer;
   border: 0;
   transition: all ease 0.5s; }

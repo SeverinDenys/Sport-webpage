@@ -1,0 +1,57 @@
+.banner {
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+
+  &__sale {
+    &--description {
+      font-size: 3rem;
+    }
+
+    &--title {
+      font-size: 5.5rem;
+      font-weight: 700;
+      margin-top: 3rem;
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+.main-item {
+  flex: 0 0 50%;
+}
+
+.box {
+  position: relative;
+  &__price {
+    position: absolute;
+    right: 0;
+    top: 3.5rem;
+    text-align: right;
+    &--old {
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+    &--new {
+      color: $color-price;
+      font-size: 4.2rem;
+      font-weight: 700;
+      margin-top: 1.7rem;
+    }
+  }
+  &__image {
+    width: 90%;
+  }
+}
+
+.btn {
+  color: $color-white;
+  background-color: $color-blue-dark;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1.8rem 2.8rem;
+  margin-top: 4rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+}
