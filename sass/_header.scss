@@ -1,5 +1,5 @@
 .page--light {
-  background-color: $color-dark-light;
+  background-color: $color-dark;
 }
 
 .wrapper {
@@ -12,8 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12.6rem;
-  padding-top: 3rem;
+  padding-bottom: 2.6rem;
+  padding-top: 2rem;
 
   &__nav--items {
     display: flex;
@@ -55,5 +55,12 @@
       color: $color-dark;
       transform: scale(1.1);
     }
+  }
+}
+
+.page {
+  padding: 10rem 0 2rem 0;
+  &--dark {
+    background-color: $color-dark;
   }
 }

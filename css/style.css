@@ -61,7 +61,7 @@ body {
   border-radius: 0.3rem; }
 
 .page--light {
-  background-color: #1b1919; }
+  background-color: black; }
 
 .wrapper {
   max-width: 111rem;
@@ -72,8 +72,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12.6rem;
-  padding-top: 3rem; }
+  padding-bottom: 2.6rem;
+  padding-top: 2rem; }
   .header__nav--items {
     display: flex;
     list-style: none;
@@ -103,3 +103,19 @@ body {
     background-color: #fff;
     color: black;
     transform: scale(1.1); }
+
+.page {
+  padding: 10rem 0 2rem 0; }
+  .page--dark {
+    background-color: black; }
+
+.notification {
+  text-align: center;
+  background-color: #0057ad;
+  color: #fff;
+  padding: 5rem 0; }
+  .notification__title {
+    font-size: 3rem;
+    text-transform: uppercase; }
+    .notification__title span {
+      font-weight: 700; }

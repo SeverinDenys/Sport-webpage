@@ -1,0 +1,13 @@
+.notification {
+  text-align: center;
+  background-color: $color-blue-dark;
+  color: $color-white;
+  padding: 5rem 0;
+  &__title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    & span {
+      font-weight: 700;
+    }
+  }
+}
