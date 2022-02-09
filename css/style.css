@@ -151,3 +151,39 @@ body {
 .notification__text {
   font-size: 1.5rem;
   margin-top: 1.3rem; }
+
+.page--title {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 5rem; }
+
+.page__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+  .page__product--title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1rem; }
+  .page__product--price {
+    color: #0057ad;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 2rem; }
+  .page__product--image {
+    width: 100%; }
+  .page__product--image2 {
+    width: 80%; }
+
+.product--btn {
+  padding: 1.5rem 2rem;
+  background-color: #0057ad;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  max-width: 20rem;
+  font-size: 2rem;
+  margin: 5rem auto 3rem auto; }

@@ -1,0 +1,46 @@
+.page {
+  &--title {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+  }
+  &__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    &--title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    &--price {
+      color: $color-blue-dark;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+    &--image {
+      width: 100%;
+    }
+
+    &--image2 {
+      width: 80%;
+    }
+  }
+}
+
+.product--btn {
+  padding: 1.5rem 2rem;
+  background-color: $color-blue-dark;
+  color: $color-white;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  max-width: 20rem;
+  font-size: 2rem;
+  margin: 5rem auto 3rem auto;
+}
