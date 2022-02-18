@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5rem 0;
+
   &--item {
     flex: 0 0 70%;
     margin-bottom: 2rem;
@@ -22,14 +23,59 @@
   }
 
   &__btn {
-    position: absolute;
-    top: 64%;
     margin-left: 1rem;
+
     background-color: $color-blue;
     color: $color-white;
     padding: 1.3rem;
     cursor: pointer;
     border: 0;
-    margin-top: 2rem;
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .collection {
+    flex-wrap: wrap;
+  }
+  .collection--item {
+    flex: 0 0 100%;
+    margin-left: 35%;
+  }
+
+  // .collection__zone--title {
+  //   float: right;
+  //   margin-top: 10rem;
+  // }
+  // .collection__zone--description {
+  //   float: right;
+  //   margin-top: 8rem;
+  //   margin-right: -20rem;
+  //   display: inline;
+  //   margin-top: 15em;
+  //   text-align: center;
+  // }
+
+  img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 585px) {
+  .collection--item {
+    margin-left: 5rem;
+  }
+
+  .collection__zone--title {
+    font-size: 1.5rem;
+  }
+
+  .collection__btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: -1rem;
+  }
+  img {
+    width: 40%;
   }
 }
