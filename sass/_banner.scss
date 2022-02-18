@@ -52,7 +52,42 @@
   font-size: 1.6rem;
   text-transform: uppercase;
   padding: 1.8rem 2.8rem;
-  margin-top: 4rem;
+
   display: inline-block;
   border-radius: 0.3rem;
+}
+
+@media (max-width: 665px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .box__image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .box {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .box__price {
+    margin-top: 5rem;
+  }
+  .banner__sale {
+    text-align: center;
+  }
+}
+
+@media (max-width: 435px) {
+  .box__image {
+    width: 70%;
+  }
+  .box__price--old {
+    font-size: 1.8rem;
+  }
+  .box__price--new {
+    font-size: 2.5rem;
+  }
 }
