@@ -1,13 +1,10 @@
 .footer {
   display: flex;
-  justify-content: space-between;
-  &__image {
-    width: 250%;
-  }
+  justify-content: space-evenly;
 }
 
 .footer-nav {
-  flex: 0 0 60%;
+  flex: 0 0 100%;
   display: flex;
   justify-content: space-between;
   margin: 1rem 0 2rem 0;
@@ -26,5 +23,19 @@
       text-decoration: none;
       font-size: 1.2rem;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+
+  .footer-nav__list {
+    flex: 0 0 49%;
   }
 }
